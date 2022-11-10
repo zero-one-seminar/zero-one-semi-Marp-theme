@@ -19,3 +19,13 @@ https://raw.githubusercontent.com/zero-one-seminar/zero-one-semi-Marp-theme/main
 テーマ名は`01semi`です。
 タイトルページには`class: title`を、
 本文のページには`class: slides`を指定するとデザインを適用できます。
+
+# 01semi
+![](imgs/template-1.png)
+![](imgs/template-2.png)
+![](imgs/template-3.png)
+![](imgs/template-4.png)
+![](imgs/template-5.png)
+![](imgs/template-6.png)
+![](imgs/template-7.png)
+![](imgs/template-8.png)
