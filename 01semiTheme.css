@@ -67,6 +67,29 @@ section::after {/*ページ番号*/
   z-index: 20;
 }
 
+/* monokai */
+.hljs-title{
+  color:#a6e22e;
+}
+.hljs-params{
+  color:#fd971f;
+}
+.hljs-variable{
+  color:#66d9ef;
+}
+.hljs-string{
+  color:#e6db74;
+}
+.hljs-keyword{
+  color:#f92672;
+}
+.hljs-number{
+  color:#ae81ff;
+}
+pre code{
+  background-color: #272822;
+}
+
 section::before{/*ロゴ*/
   content: "";
   position: fixed;
