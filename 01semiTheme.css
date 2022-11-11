@@ -32,13 +32,6 @@ section.slides h1::after{
   z-index: -10;
 }
 
-/*フォント*/
-section h1{
-  font-family:"Cica","ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","HGMaruGothicMPRO";
-}
-code{
-  font-family: "Cica","Ricty Diminished","Consolas";
-}
 /*数式*/
 .katex{
   font-size: 35px;
@@ -72,6 +65,29 @@ section::after {/*ページ番号*/
   content: '' attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
   color:white;
   z-index: 20;
+}
+
+/* monokai */
+.hljs-title{
+  color:#a6e22e;
+}
+.hljs-params{
+  color:#fd971f;
+}
+.hljs-variable{
+  color:#66d9ef;
+}
+.hljs-string{
+  color:#e6db74;
+}
+.hljs-keyword{
+  color:#f92672;
+}
+.hljs-number{
+  color:#ae81ff;
+}
+pre code{
+  background-color: #272822;
 }
 
 section::before{/*ロゴ*/
